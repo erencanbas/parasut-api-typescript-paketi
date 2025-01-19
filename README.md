@@ -5,7 +5,7 @@ This is a TypeScript wrapper for the Parasut API, designed to help developers in
 ## Features
 
 - **Authentication**: Easily authenticate with the Parasut API using your credentials.
-- **Customers**: Fetch and manage customer data.
+- **Customers**: Fetch customer data and create new customer.
 - **Invoices**: Create and retrieve invoices, update their details.
 - **Items**: Manage items in your Parasut account.
 - **Update Invoice**: Update existing invoices with new data.
