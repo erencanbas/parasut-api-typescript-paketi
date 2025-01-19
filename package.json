@@ -2,7 +2,7 @@
   "name": "parasut-api",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsup",
+    "build": "tsup src/index.ts",
     "prepare": "npm run build"
   },
   "main": "dist/index.js",
