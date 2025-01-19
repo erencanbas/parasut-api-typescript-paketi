@@ -1,10 +1,10 @@
 import axios from "axios";
 
 export interface AuthParams {
-    clientId: string,
-    clientSecret: string,
-    redirectUri: string,
-    code: string
+    clientId: string;
+    clientSecret: string;
+    redirectUri: string;
+    code: string;
 }
 
 export async function authenticate({

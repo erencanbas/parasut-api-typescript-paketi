@@ -5,8 +5,8 @@ export async function getItems({
     accessToken,
     companyId,
 }: {
-    accessToken: string,
-    companyId: string
+    accessToken: string;
+    companyId: string;
 }) {
     const url = `https://api.parasut.com/v4/${companyId}/items`;
     const headers = {

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export interface InvoiceData {
-    customer_id: number,
+    customer_id: number;
     items: Array<{ description: string; quantity:number; unit_price: number }>;
 }
 
@@ -10,8 +10,8 @@ export async function createInvoice({
     companyId,
     invoiceData
 }: {
-    accessToken: string,
-    companyId: string,
+    accessToken: string;
+    companyId: string;
     invoiceData: InvoiceData;
 }) {
     const url = `https://api.parasut.com/v4/${companyId}/invoices`;
